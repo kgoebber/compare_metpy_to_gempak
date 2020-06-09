@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3
+  - cartopy
   - numpy
   - matplotlib
   - siphon
@@ -11,4 +12,4 @@ dependencies:
   - jupyterlab
   - pip
   - pip:
-     - git+https://github.com/Unidata/MetPy.git
+     - git+https://github.com/Unidata/MetPy.git@refs/pull/1353/head
