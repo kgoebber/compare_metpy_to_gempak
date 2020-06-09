@@ -1,0 +1,14 @@
+name: gempak_compare
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - numpy
+  - matplotlib
+  - siphon
+  - xarray
+  - pint
+  - jupyterlab
+  - pip
+  - pip:
+     - git+https://github.com/Unidata/MetPy.git
